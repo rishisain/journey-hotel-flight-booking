@@ -1,0 +1,52 @@
+.etabs {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.tab {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+
+    border-bottom: none;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+}
+
+.tab a {
+    font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 10px;
+    outline: none;
+}
+
+.tab a:hover {
+    text-decoration: underline;
+}
+
+.tab.active {
+    background: #fff;
+    padding-top: 6px;
+    position: relative;
+    top: 1px;
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
+}
+
+.tab a.active {
+    font-weight: bold;
+}
+
+.tab-container{
+    margin-top: 15px;
+}
+
+.tab-container .panel-container {
+    background: #fff;
+    border: solid #666 1px;
+    padding: 10px;
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0 4px 4px 4px;
+}
